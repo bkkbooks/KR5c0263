@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0263/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0263/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 天老神光經
+  date: '2015-08-29 00:55:11.870123'
+  source:
+    repository: kanripo
+    path: KR5c0263
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0263_000-HFL.yaml, hash: 'sha256:60e031e8c0065f0162bf00e264c2f9153c8a0fa06e7f6c86055692140b2c65c9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0263_000-HFL.markers.yaml, hash: 'sha256:faa99754d9c13c6e0b75c8f2f5c6cedb62c98b89372b623d9cccabe50c4f4d71'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0263_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3147
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:6fa6b567f4486b5cd07efa43f3a4fa70ac31039a0c1e46d4772104cfe53d49b0
